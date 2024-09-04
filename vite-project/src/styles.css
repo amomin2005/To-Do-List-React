@@ -1,0 +1,66 @@
+*{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(188, 231, 253), rgb(188, 192, 248), rgb(190, 253, 190));
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+
+.Delete1{
+    background-color: rgb(254, 234, 172);
+    color: red;
+    border-style:solid;
+    border-radius: 10%;
+}
+
+.Delete2{
+    color: red;
+    border-style:solid;
+    border-radius: 10%;
+    background-color: rgb(254, 234, 172);
+}
+
+.header{
+    padding: 5%;
+}
+
+.newttask{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.checkk{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+    
+.newttask input{
+    color: rgb(210, 159, 159);
+}
+
+.newttask label{
+    color: rgb(98, 96, 96);
+}
+
+.button{
+    font-size: 20px;
+    background-color: rgb(110, 92, 244);
+    border: 1px solid black;
+    padding: 0.25em 0.5em;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.25em;
+}
